@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J. Jackson Coaches | Coach Hire Ireland</title>
+  <meta name="description" content="J Jackson Coache Hire Dublin Ireland Website">
+  <meta name="keywords" content="coach hire dublin, coach hire ireland, dublin coaches, ireland coach hire, party bus">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    var header = document.getElementsByClassName("header");
+    console.log(header[0].style.background);
+    var backgrounds = new Array(
+        "url('./img/1.jpg') no-repeat fixed"
+      , "url('./img/bg-banner03.jpg') no-repeat fixed"
+      , "url('./img/2.jpg') no-repeat fixed"
+      , "url('./img/3.jpg') no-repeat fixed"
+    );
+    console.log(backgrounds[0])
+    var current = 0;
+
+    function nextBackground() {
+        current++;
+        current = current % backgrounds.length;
+        header[0].style.background = backgrounds[current];
+        header[0].style.backgroundSize = "cover";
+    }
+    setInterval(nextBackground, 10000);
+
+    header[0].style.background = backgrounds[0];
+    header[0].style.backgroundSize = "cover";
+    console.log(header[0].style.background);
+    });
+  </script>
+</head>
+
+<body>
+
+  <div class="loader"></div>
+
+  <div id="myDiv">
+    <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="#">J.Jackson<span class="logo-dec">Coaches</span></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#main-header">Home</a></li>
+                  <li class=""><a href="./private-hire.html">Private Hire</a></li>
+                  <li class=""><a href="./excursions.html">Excursions</a></li>
+                  <li class=""><a href="./events.html">Events</a></li>
+                  <li class=""><a href="./partners.html">Partners</a></li>
+                  <li class=""><a href="./contact-us.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="banner-info text-center wow fadeIn delay-05s">
+                <h2 class="bnr-sub-title">Start your journey with us!</h2>
+                <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>
+                <div class="brn-btn">
+                  <a href="#service" class="btn btn-more">Learn More</a>
+                </div>
+<!--
+                <div class="overlay-detail">
+                  <a href="#feature"><i class="fa fa-angle-down"></i></a>
+                </div>
+-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ HEADER-->
+    <!---->
+    <!---->
+    <!---->
+    <section id="service" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">About Us</h2>
+            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>Private Hire</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="./private-hire.html">Learn more.</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>Excursions</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="./excursions.html">Learn more.</a></p>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>Events</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="./events.html">Learn more.</a></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <section id="testimonial" class="wow fadeInUp delay-05s">
+        
+      <div class="bg-testicolor">
+         
+        <div class="container section-padding">
+             <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center white">
+            <h2 class="service-title pad-bt15">What our customers have to say</h2>
+            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr class="bottom-line">
+          </div>
+        </div>
+      </div>
+          <div class="row">
+            <div class="testimonial-item">
+              <ul class="bxslider">
+                <li>
+                  <blockquote>
+                    <p>John was a gentleman to deal with. He was on time and had great tunes to start off our night. I would highly recommend him and will definitely be using him again. Thanks again John! </p>
+                  </blockquote>
+                  <small>Emma Baker, Customer</small>
+                </li>
+                <li>
+                  <blockquote>
+                    <p>John was a gentleman. Very punctual and he accommodated me even though I committed to it on the day. He is great craic!</p>
+                  </blockquote>
+                  <small>Sai Mey, Customer</small>
+                </li>
+                <li>
+                  <blockquote>
+                    <p>Come a day there won't be room for naughty men like us to slip about at all. This job goes south, there well may not be another.</p>
+                  </blockquote>
+                  <small>Sai Mey, Customer</small>
+                </li>
+                <li>
+                  <br>
+                  <blockquote>
+                    <p>So here is us, on the raggedy edge. Don't push me, and I won't push you.</p>
+                  </blockquote>
+                  <small>John Doe, Client</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center white">
+            <h2 class="service-title pad-bt15">Contact Us</h2>
+            <hr class="bottom-line white-bg">
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="loction-info white">
+              <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>123 Main Street<br>Blanchardstown, Dublin 15</p>
+              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>jjacksoncoaches@gmail.com</p>
+              <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>0879472819</p>
+            </div>
+          </div>
+          <!--<div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="contact-form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="col-md-6 padding-right-zero">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
+                </div>
+              </form>
+
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <p>&copy; J.JacksonCoaches. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!---->
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
